@@ -1,0 +1,75 @@
+
+* {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+
+.header {
+display: flex;
+justify-content: left;
+background-color:rgb(70, 60, 24);
+padding: 15px 0 15px 10px;
+color: rgb(199, 221, 197);
+margin-top: 10px;
+font-family: 'Courier New', Courier, monospace;
+font-size: 2em;
+}
+
+body {
+  color: rgb(61, 52, 27);
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:larger;  
+  background-image: url('src/table.jpg');
+
+  background-size:cover;
+  background-position:center;
+  margin-top: 10px;
+}
+
+h1, h2 {
+font-family: 'Courier New', Courier, monospace;
+font-weight: normal;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border: 20px;
+}
+  
+.footerco {
+  display: flex;
+  color:blue;
+  font-size: larger;
+  background-color:wheat;
+  
+}
+
+.footerlesson {
+  display: flex;
+  color:rgb(45, 45, 240);
+}
+
+
+
+  /*background: linear-gradient(yellow, red);
+*/
+
+/*
+.h1 {
+    background-color: blueviolet;
+}
+
+display: flex; позволяет создать флекс-контейнер;
+justify-content определяет горизонтальное выравнивание элементов;
+align-items определяет вертикальное выравнивание элементов;
+flex-direction трансформирует строки в столбцы;
+row-reverse или column-reverse меняет порядок элементов;
+order можно использовать для редактирование расположения индивидуальных элементов;
+align-self вертикально выравнивает отдельные элементы;
+flex позволяет создавать боксы, способные растягиваться и сжиматься.
+*/
